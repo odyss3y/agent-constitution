@@ -11,6 +11,15 @@ This repository defines a general-purpose Agent Constitution for AI coding workf
 - Preserve reversibility, provenance, user intent, and reviewability when the rules are silent.
 - Do not add code, CI, package metadata, automation, or generated artifacts unless explicitly requested.
 
+## Required Reading Map
+
+Do not stop at this file when a task touches repository policy or adoption behavior. Read the smallest relevant set:
+
+- Any repo change: `README.md`, `docs/authority_model.md`, and `docs/evidence_vs_authority.md`.
+- Safety, trust, or security-model changes: also read `docs/security_models.md`, `docs/threat_model.md`, and `docs/destructive_action_policy.md`.
+- Governance, doctrine, or process changes: also read `docs/self_update_process.md`, `docs/provenance_and_breadcrumbs.md`, and the relevant files in `templates/`.
+- Adoption work: also read `docs/repo_adoption_template.md` and `templates/project_AGENTS.md`.
+
 ## Authority For This Repo
 
 Use this authority order:

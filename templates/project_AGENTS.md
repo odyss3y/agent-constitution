@@ -4,6 +4,8 @@ This project adopts the Agent Constitution by principle.
 
 Project-specific rules may narrow or specialize those rules, but must not weaken authority boundaries, evidence handling, reversibility, provenance, or reviewability.
 
+Preserve the constitution's required reading map, or define an equivalent local map that prevents agents from stopping at this file when deeper policy docs are task-relevant.
+
 ## Project Purpose
 
 <Describe what this repository is for and what user-facing or operational purpose it serves.>
