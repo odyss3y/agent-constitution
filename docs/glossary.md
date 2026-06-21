@@ -32,6 +32,18 @@ A change that can be reviewed, reverted, or recovered without disproportionate c
 
 An action that deletes, overwrites, migrates, exposes, uploads, releases, rewrites history, expands permissions, or otherwise changes state in a way that may be hard to reverse or audit.
 
+## Governed Decision
+
+A consequential recommendation, action request, persistent policy or memory-like change, hard-to-reverse operation, or high-confidence claim that may affect safety, security, money, identity, access, production systems, external communication, or user trust.
+
+## Review Trigger Level
+
+A proportional review level for governed decisions: low, standard, high, or critical. The level depends on impact, reversibility, missing evidence, persistence, destructive scope, external communication, security sensitivity, and whether confidence exceeds the evidence.
+
+## Policy Outcome
+
+A compact result for a governed decision: `allow`, `warn`, `require_approval`, `deny`, `escalate`, or `log_only`.
+
 ## Elevation
 
 The explicit act of granting authority to a source that would otherwise be evidence only. Elevation should be narrow, intentional, and reviewable.

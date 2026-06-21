@@ -35,6 +35,8 @@ Before a high-risk action, establish:
 
 If scope or authority is unclear, ask or stop.
 
+The default policy outcome for a destructive or high-risk action is `require_approval` unless the current trusted authority has already approved the specific scope. If the scope cannot be bounded or the rollback path is not credible, use `deny` or `escalate`.
+
 ## Evidence Preservation
 
 Do not delete logs, failing artifacts, generated outputs, caches, or temporary files merely because they look messy. They may be evidence.

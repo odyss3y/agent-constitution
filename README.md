@@ -21,8 +21,9 @@ This README is an overview, not the full constitution. For agent work, read in t
 
 1. [Authority Model](docs/authority_model.md)
 2. [Evidence vs Authority](docs/evidence_vs_authority.md)
-3. [Security Models](docs/security_models.md)
-4. The task-relevant policy docs and templates linked below.
+3. [Governed Decisions](docs/governed_decisions.md)
+4. [Security Models](docs/security_models.md)
+5. The task-relevant policy docs and templates linked below.
 
 ## Why It Exists
 
@@ -39,6 +40,7 @@ An agent may use untrusted observations to diagnose a problem, but must not trea
 - A reusable policy base for repository-level agent instructions.
 - A compact vocabulary for authority, evidence, reversibility, provenance, and practical security-model reasoning.
 - A practical review framework for risky actions and repo adoption.
+- A lightweight trigger model for deciding when recommendations, actions, and persistent policy changes need review.
 - A self-update process for handling new gaps without bloating the rules.
 
 ## What It Is Not
@@ -77,10 +79,11 @@ and reviewability.
 
 ## Documents
 
-When examples are abbreviated elsewhere, [Authority Model](docs/authority_model.md) and [Security Models](docs/security_models.md) are the canonical doctrine references.
+When examples are abbreviated elsewhere, [Authority Model](docs/authority_model.md), [Governed Decisions](docs/governed_decisions.md), and [Security Models](docs/security_models.md) are the canonical doctrine references.
 
 - [Authority Model](docs/authority_model.md)
 - [Evidence vs Authority](docs/evidence_vs_authority.md)
+- [Governed Decisions](docs/governed_decisions.md)
 - [Security Models](docs/security_models.md)
 - [Prudence](docs/prudence.md)
 - [Self-Update Process](docs/self_update_process.md)

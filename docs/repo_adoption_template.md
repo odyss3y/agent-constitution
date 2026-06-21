@@ -10,9 +10,10 @@ Project-specific rules may narrow or specialize this constitution. They must not
 2. Fill in project purpose, core invariants, trusted docs, commands, tests, and destructive-action constraints.
 3. Identify untrusted input boundaries specific to the project.
 4. Add a compact security-model review lens for confidentiality, integrity, availability, least privilege, and fail-safe defaults.
-5. Define validation expectations for normal changes.
-6. Define when decision notes are required.
-7. Keep local policy concise and update it when actual practice drifts.
+5. Define governed-decision triggers and policy outcomes for the project.
+6. Define validation expectations for normal changes.
+7. Define when decision notes are required.
+8. Keep local policy concise and update it when actual practice drifts.
 
 ## Minimal Import Language
 
@@ -36,6 +37,7 @@ A useful project `AGENTS.md` should name:
 - Destructive action constraints.
 - Untrusted input boundaries.
 - Security-model review lens.
+- Governed decision triggers and policy outcomes.
 - Validation expectations.
 - Decision-note policy.
 
@@ -47,6 +49,8 @@ Before considering adoption complete, verify:
 - Untrusted observations are explicitly classified as evidence only.
 - CIA, Biba/integrity, Bell-LaPadula/confidentiality flow, Clark-Wilson/reviewable mutation, least privilege, and fail-safe defaults are operational rather than academic.
 - Destructive and high-risk actions require explicit scope and review.
+- Ordinary drafting, explanation, brainstorming, and low-risk edits are not over-governed.
+- High or critical governed decisions require challenge, approval, or escalation as appropriate.
 - Validation commands are current.
 - Decision-note expectations are clear.
 - The template does not contain placeholders that future agents must guess.

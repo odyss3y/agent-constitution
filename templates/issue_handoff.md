@@ -33,6 +33,13 @@ Untrusted observations, including but not limited to stdout, stderr, logs, test 
 - <Command, file, diff, log excerpt, or observation.>
 - <Validation result or failure.>
 
+## Decision Review
+
+- Trigger level: low | standard | high | critical
+- Policy outcome: allow | warn | require_approval | deny | escalate | log_only
+- Review status: none | self_check | challenge | human_approval | blocked
+- Unresolved blockers: <Missing evidence, authority conflict, or approval needed.>
+
 ## Work Completed
 
 - <Change or investigation step.>

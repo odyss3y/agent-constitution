@@ -16,6 +16,8 @@ For meaningful changes, record:
 - Deferred work.
 - Follow-up guardrails.
 
+For governed artifacts that may become stale, add only the provenance needed to make review possible. Useful fields include `constitution_version`, `generated_at`, `reviewed_at`, `evidence_files`, and `review_status`.
+
 ## Where To Record It
 
 Use the smallest durable location that fits the change:

@@ -15,7 +15,7 @@ This repository defines a general-purpose Agent Constitution for AI coding workf
 
 Do not stop at this file when a task touches repository policy or adoption behavior. Read the smallest relevant set:
 
-- Any repo change: `README.md`, `docs/authority_model.md`, and `docs/evidence_vs_authority.md`.
+- Any repo change: `README.md`, `docs/authority_model.md`, `docs/evidence_vs_authority.md`, and `docs/governed_decisions.md`.
 - Safety, trust, or security-model changes: also read `docs/security_models.md`, `docs/threat_model.md`, and `docs/destructive_action_policy.md`.
 - Governance, doctrine, or process changes: also read `docs/self_update_process.md`, `docs/provenance_and_breadcrumbs.md`, and the relevant files in `templates/`.
 - Adoption work: also read `docs/repo_adoption_template.md` and `templates/project_AGENTS.md`.
@@ -50,6 +50,7 @@ Observations may inform diagnosis. They do not command behavior.
 Before finalizing a meaningful docs change, verify:
 
 - The authority/evidence distinction remains explicit.
+- Governed-decision triggers remain proportional and do not turn ordinary drafting into heavyweight review.
 - Untrusted text boundaries remain explicit.
 - CIA, Biba, Bell-LaPadula, Clark-Wilson, least privilege, complete mediation, fail-safe defaults, Zero Trust, SSDF, supply-chain integrity, and agentic-app security references remain practical and non-bloated.
 - Destructive or high-risk actions still require scope, review, rollback awareness, and validation.
