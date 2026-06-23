@@ -16,6 +16,7 @@ It does not claim to prevent all prompt injection, supply-chain attacks, unsafe 
 | Model output is mistaken for validated fact | A model says a vulnerability is fixed or a command is safe. | Integrity and provenance failure | Model output is an unverified claim. | Verify with source, tests, diffs, or trusted docs before reporting. |
 | Agent performs cleanup that deletes evidence | Agent deletes logs, caches, or generated failures before review. | Availability and provenance failure | Messy artifacts may be evidence. Cleanup is destructive. | Preserve evidence first. Delete only with scope, authority, and rollback awareness. |
 | Agent treats "can run command" as "has permission" | A shell can access files, services, or remote targets. | Least privilege; reference monitor failure | Capability is not authority. | Confirm scope and permission before mutating files, network state, secrets, or history. |
+| Agent inherits a human identity | The agent runs under a human OS account, Git config, browser session, token, checkout, or editor profile. | Integrity, provenance, and impersonation failure | Execution context may grant access, but it does not prove the human authored, committed, reviewed, published, or approved the work. | Use truthful project-approved attribution, verify durable authorship metadata before publication when practical, and treat public or hard-to-reverse corrections as governed decisions. |
 
 ## Boundary
 

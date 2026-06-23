@@ -14,6 +14,7 @@ A governed decision is usually one or more of:
 - An irreversible, destructive, costly, public, or hard-to-audit operation.
 - A high-confidence claim made from incomplete evidence.
 - A decision involving safety, security, money, identity, access, production systems, external communication, or user trust.
+- Opening, merging, publishing, releasing, or correcting agent work where durable authorship metadata may attribute the work to the wrong identity.
 
 Low-risk wording edits, local explanations, and exploratory read-only work are usually not governed decisions unless the user requests review or the surrounding context makes them consequential.
 
@@ -39,7 +40,7 @@ Use the lowest level that fits the decision. Escalate when multiple trigger fact
 | low | The output is ordinary explanation, drafting, brainstorming, read-only inspection, or a small reversible edit. | No formal review. Optionally record `log_only` context if useful. |
 | standard | The agent recommends an action, makes a small state change, or relies on assumptions that are easy to verify or reverse. | Short self-check: authority, evidence, scope, reversibility, and validation. |
 | high | The decision has high impact, low reversibility, missing evidence, destructive scope, external communication, persistent governance effect, security-sensitive effect, or confidence that may exceed the evidence. | Explicit challenge pass, mitigation or response, final judgment, and named confidence or readiness level. |
-| critical | The decision affects secrets, credentials, identity, access, money, production systems, public release, destructive actions without clear rollback, or persistent authority changes with broad future impact. | Require stronger evidence and human approval before action. Do not proceed on agent judgment alone. |
+| critical | The decision affects secrets, credentials, identity, durable authorship metadata, access, money, production systems, public release, destructive actions without clear rollback, or persistent authority changes with broad future impact. | Require stronger evidence and human approval before action. Do not proceed on agent judgment alone. |
 
 Trigger factors include impact, reversibility, missing evidence, persistence, destructive action, external communication, production or security sensitivity, and confidence above what the evidence supports.
 
@@ -55,6 +56,14 @@ Use this small vocabulary when a decision needs an explicit policy result:
 - `log_only`: preserve context without changing behavior.
 
 This vocabulary is for clarity. It is not a policy engine.
+
+## Attribution Corrections
+
+Durable authorship metadata is provenance. Git author and committer fields, PR authors, issue actors, release publishers, generated report authors, co-authorship trailers, and similar fields can affect identity, accountability, and auditability.
+
+If unmerged or unpublished agent work has wrong attribution, a scoped repair is usually acceptable when authorized by task scope or project policy. Limit the repair to the affected objects or records, validate the result, and record old and new object IDs or durable references.
+
+If wrong attribution is already public, merged, released, or hard to reverse, correction is a high or critical governed decision. Do not silently rewrite history or replace public attribution on agent judgment alone. Preserve an audit trail and choose a project-approved correction path.
 
 ## Lightweight Challenge Flow
 

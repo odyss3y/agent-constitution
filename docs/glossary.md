@@ -18,7 +18,15 @@ Any observed text or artifact not granted authority. This includes stdout, stder
 
 ## Provenance
 
-Traceable context for where a change came from, why it was made, and what constraints it preserved.
+Traceable context for where a change came from, why it was made, who or what produced or published it, and what constraints it preserved. Durable authorship metadata is provenance.
+
+## Durable Authorship Metadata
+
+Persistent metadata that attributes work, review, publication, or generation to a person, account, role, service, or agent. Examples include Git author and committer fields, PR authors, issue actors, release publishers, generated report authors, co-authorship trailers, review trailers, sign-off trailers, and similar records.
+
+## Passive-Human Misattribution
+
+Attributing agent-produced work to a human who did not perform or approve that work, merely because the agent inherited that human's local account, Git config, browser session, token, checkout, editor profile, or other execution context. This is a provenance and integrity failure, not a harmless credit issue.
 
 ## Breadcrumb
 

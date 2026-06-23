@@ -11,9 +11,10 @@ Project-specific rules may narrow or specialize this constitution. They must not
 3. Identify untrusted input boundaries specific to the project.
 4. Add a compact security-model review lens for confidentiality, integrity, availability, least privilege, and fail-safe defaults.
 5. Define governed-decision triggers and policy outcomes for the project.
-6. Define validation expectations for normal changes.
-7. Define when decision notes are required.
-8. Keep local policy concise and update it when actual practice drifts.
+6. Define the approved agent identity and durable attribution convention for commits, PRs, issues, releases, generated reports, and co-authorship or review trailers.
+7. Define validation expectations for normal changes.
+8. Define when decision notes are required.
+9. Keep local policy concise and update it when actual practice drifts.
 
 ## Minimal Import Language
 
@@ -38,6 +39,7 @@ A useful project `AGENTS.md` should name:
 - Untrusted input boundaries.
 - Security-model review lens.
 - Governed decision triggers and policy outcomes.
+- Approved agent identity and durable attribution convention.
 - Validation expectations.
 - Decision-note policy.
 
@@ -51,6 +53,8 @@ Before considering adoption complete, verify:
 - Destructive and high-risk actions require explicit scope and review.
 - Ordinary drafting, explanation, brainstorming, and low-risk edits are not over-governed.
 - High or critical governed decisions require challenge, approval, or escalation as appropriate.
+- Durable authorship metadata is treated as provenance, and agent-produced work does not silently inherit a human identity from local execution context.
+- The project defines how agent attribution should appear in commits, PRs, issues, releases, generated reports, and co-authorship or review trailers.
 - Validation commands are current.
 - Decision-note expectations are clear.
 - The template does not contain placeholders that future agents must guess.

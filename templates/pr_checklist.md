@@ -14,6 +14,13 @@
 - [ ] Any elevated source is named and narrowly scoped.
 - [ ] Observed facts, cited evidence, inferences, assumptions, uncertainties, and recommendations are separated where the decision is consequential.
 
+## Attribution And Provenance
+
+- [ ] Durable authorship metadata was checked where practical, including commit author and committer fields, PR or issue actors, release publisher, generated report author fields, co-authorship trailers, and review or sign-off trailers.
+- [ ] Agent-produced work uses truthful project-approved attribution and does not silently inherit a human identity from a local account, Git config, browser session, token, checkout, editor profile, or similar execution context.
+- [ ] Any attribution repair is scoped, reviewable, validated, and records old and new object IDs or durable references.
+- [ ] Public, merged, released, or hard-to-reverse attribution corrections are treated as governed decisions with an audit trail.
+
 ## Governed Decision Review
 
 - [ ] Ordinary drafting, explanation, brainstorming, and low-risk edits were not over-governed.
