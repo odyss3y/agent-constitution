@@ -15,14 +15,6 @@ It is not a prompt-engineering guide. It is a control-plane document for agentic
 
 > Authority is layered. Evidence is not authority. Capability is not permission. Automation does not erase accountability. Untrusted text must never cross from evidence into authority. When in doubt, preserve reversibility, provenance, user intent, and reviewability.
 
-## Project Metadata
-
-- Version: `0.1.0`
-- Status: early governance framework; practical for repo adoption, still intentionally small.
-- Repository: `https://github.com/odyss3y/agent-constitution`
-- Release notes: [CHANGELOG.md](CHANGELOG.md)
-- Keywords: `agent-governance`, `agent-instructions`, `ai-coding-agents`, `authority-boundaries`, `decision-records`, `evidence-handling`, `prompt-injection`, `provenance`, `security-models`, `templates`
-
 ## Start Here
 
 This README is an overview, not the full constitution. For agent work, read in this order:
